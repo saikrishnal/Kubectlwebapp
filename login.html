@@ -4,6 +4,23 @@
 	<link rel="stylesheet" type="text/css" href="login.css">
 	<title>Kubernetes CLI</title>
 </head>
+<style> 
+	input[type=submit] {
+	color: rgb(255, 255, 255); 
+	font-size: 16px; 
+	line-height: 16px; 
+	padding: 6px; 
+	padding-inline-start: 15px;
+	padding-inline-end: 15px;
+	border-radius: 10px; 
+	font-family: Georgia, serif; 
+	background-image: radial-gradient(at center center, rgb(52, 125, 219) 0%, rgb(51, 82, 219) 76%, rgb(43, 34, 185) 100%); 
+	box-shadow: rgb(48, 47, 47) 3px 3px 10px 3px; 
+	border: 2px solid rgb(28, 110, 164); 
+	display: inline-block;
+	}
+</style>
+
 <body id="bodyzoomin">
 	<div id="demotext">
 	<h2>Welcome to Kubernetes CLI</h2> 
@@ -12,20 +29,15 @@
 	<div id="alignpadding">
 		<form id="theform" action="login" method="post">
 			<p>
-				<div class="table">
-				<label for="name">Username:</label>
-				<input type="text" id="username" name="sampleuname"><br><br>
-				</div>
-				<div class="table">
-				<label for="password">Password:</label>
-				<input type="password" id="password" name="samplepwd"><br><br>
-				</div>
-				<input type="submit" value="SignIn">
-				</div>
-			</p>
+			<div class="table">
+			<label for="name">Username:</label>
+			<input type="text" id="username" name="sampleuname"><br><br>
+			</div>
+			<div class="table">
+			<label for="password">Password:</label>
+			<input type="password" id="password" name="samplepwd"><br><br>
+			<input type="submit" value="SignIn">
 		</form>
 	</div>
-	
-
 </body>
 </html>
