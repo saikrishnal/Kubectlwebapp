@@ -1,0 +1,41 @@
+#theform{
+	color: white;
+	display: table;
+	background: -moz-linear-gradient(top, #347DDB 0%, #3352DB 76%, #2B22B9 100%);
+	background: -webkit-linear-gradient(top, #347DDB 0%, #3352DB 76%, #2B22B9 100%);
+	background: linear-gradient(to bottom, #347DDB 0%, #3352DB 76%, #2B22B9 100%);
+	border: 3px;
+	border-radius: 5px;
+	padding: 15px;
+}
+.table {
+	display: table-row;
+}
+.table label{
+	display: table-cell;
+	padding: 6px;
+}
+.table input{
+	display: table-cell;
+	padding: 3px;
+}
+#demotext {
+	color: #ffffff;
+	background: -moz-linear-gradient(top, #347DDB 0%, #3352DB 76%, #2B22B9 100%);
+	background: -webkit-linear-gradient(top, #347DDB 0%, #3352DB 76%, #2B22B9 100%);
+	background: linear-gradient(to bottom, #347DDB 0%, #3352DB 76%, #2B22B9 100%);	display: table;
+	border: 3px;
+	border-radius: 5px;
+	padding: 15px;
+	letter-spacing: .1em;
+	text-shadow: 0 -0.5px 0 #fff, 0 0.5px 0 #2e2e2e, 0 1px 0 #2c2c2c, 0 1.5px 0 #2a2a2a, 0 2px 0 #282828, 0 2.5px 0 #262626, 0 4px 6px rgba(0,0,0,0.9);
+	}
+#alignpadding {
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-left: 37px;
+}
+
+#bodyzoomin {
+	zoom: 135%;
+}
